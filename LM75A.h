@@ -17,3 +17,4 @@ extern I2C_HandleTypeDef hi2c1;
 
 
 uint8_t LM75_Temp_9BIT_Read_Reg(uint8_t reg);
+uint8_t LM75A_Read_Config();
